@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/*#components-layout-demo-responsive .logo {*/
+/*  height: 32px;*/
+/*  margin: 16px;*/
+/*  background: rgba(255, 255, 255, 0.2);*/
+/*}*/
+
+/*.site-layout-sub-header-background {*/
+/*  background: #fff;*/
+/*}*/
+
+/*.site-layout-background {*/
+/*  background: #fff;*/
+/*}*/
+
+.ant-layout-sider-zero-width-trigger {
+  right: auto !important;
+  left: -36px !important;
+  border-radius: 10px 0 0 10px !important;
+}

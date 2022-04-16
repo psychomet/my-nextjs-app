@@ -15,7 +15,22 @@
     "jsx": "preserve",
     "incremental": true,
     "strictNullChecks": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "paths": {
+      "@models/*": [
+        "./interfaces/*",
+        "./enums/*",
+      ],
+      "@guards": [
+        "./guards"
+      ],
+      "@types/*": [
+        "./types/*"
+      ],
+      "@components/*": [
+        "./components/*/index"
+      ]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

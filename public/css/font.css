@@ -1,0 +1,18 @@
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Bold(FaNum).ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: light;
+  src: url("../fonts/Light(FaNum).ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: regular;
+  src: url("../fonts/Regular(FaNum).ttf") format("truetype");
+}

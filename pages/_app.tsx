@@ -1,9 +1,13 @@
-import "../styles/globals.css";
+
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import "antd/dist/antd.less";
-import PanelLayout from "../components/panel-layout/panel-layout";
+import MainLayout from "../components/main-layout/main-layout";
 // import { RouteGuard } from "@guards";
+import "../styles/globals.css";
+import "../public/css/font.css";
+import "../public/css/bootstrap.css";
+// import "../styles/antd.less"
+// import "antd/dist/antd.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -14,9 +18,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main dir={"rtl"}>
-        <PanelLayout>
+        <MainLayout>
           <Component {...pageProps} />
-        </PanelLayout>
+        </MainLayout>
         {/* <RouteGuard>
           
         </RouteGuard> */}
